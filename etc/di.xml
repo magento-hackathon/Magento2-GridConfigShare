@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
-    <type name="MagentoHackathon\GridConfigShare\Model\ResourceModel\Block\Grid\Collection">
+    <type name="MagentoHackathon\GridConfigShare\Model\ResourceModel\Bookmark\Grid\Collection">
         <arguments>
-            <argument name="mainTable" xsi:type="string">todo_table_name</argument>
+            <argument name="mainTable" xsi:type="string">ui_bookmark_share</argument>
             <argument name="eventPrefix" xsi:type="string">bookmark_grid_collection</argument>
             <argument name="eventObject" xsi:type="string">bookmark_grid_collection</argument>
             <argument name="resourceModel" xsi:type="string">MagentoHackathon\GridConfigShare\Model\ResourceModel\Bookmark</argument>
