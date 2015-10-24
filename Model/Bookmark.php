@@ -3,7 +3,7 @@ namespace MagentoHackathon\GridConfigShare\Model;
 
 use Magento\Framework\Model\AbstractModel;
 
-class GridConfig extends AbstractModel
+class Bookmark extends AbstractModel
 {
     /**
      * Define the resource Model

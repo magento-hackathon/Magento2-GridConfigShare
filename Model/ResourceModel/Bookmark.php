@@ -4,7 +4,7 @@ namespace MagentoHackathon\GridConfigShare\Model\Resource;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
-class GridConfig extends AbstractDb
+class Bookmark extends AbstractDb
 {
     /**
      * Define main table
