@@ -1,6 +1,14 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="cms_block_listing_data_source" xsi:type="string">MagentoHackathon\GridConfigShare\Model\ResourceModel\Bookmark\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+
     <type name="MagentoHackathon\GridConfigShare\Model\ResourceModel\Bookmark\Grid\Collection">
         <arguments>
             <argument name="mainTable" xsi:type="string">ui_bookmark_share</argument>

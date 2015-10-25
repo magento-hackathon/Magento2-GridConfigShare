@@ -10,10 +10,7 @@ class Collection extends BookmarkCollection
      *
      * @return void
      */
-    protected function _construct()
-    {
+    protected function _construct() {
         $this->_init('MagentoHackathon\GridConfig\Model\GridConfig', 'MagentoHackathon\Gridconfig\Model\Resource\GridConfig');
     }
-
-
 }
