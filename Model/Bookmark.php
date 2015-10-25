@@ -10,6 +10,6 @@ class Bookmark extends AbstractModel
      */
     protected function _construct()
     {
-        $this->_init('MagentoHackathon\GridConfigShare\Model\Resource\GridConfig');
+        $this->_init('MagentoHackathon\GridConfigShare\Model\ResourceModel\GridConfig');
     }
 }

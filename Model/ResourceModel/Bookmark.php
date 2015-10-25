@@ -1,6 +1,6 @@
 <?php
 
-namespace MagentoHackathon\GridConfigShare\Model\Resource;
+namespace MagentoHackathon\GridConfigShare\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
