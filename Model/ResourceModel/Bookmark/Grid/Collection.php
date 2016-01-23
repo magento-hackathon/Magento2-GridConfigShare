@@ -47,7 +47,6 @@ class Collection extends BookmarkCollection implements SearchResultInterface
             $logger,
             $fetchStrategy,
             $eventManager,
-            $storeManager,
             $connection,
             $resource
         );
