@@ -4,7 +4,7 @@
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="cms_block_listing_data_source" xsi:type="string">MagentoHackathon\GridConfigShare\Model\ResourceModel\Bookmark\Grid\Collection</item>
+                <item name="gridconfigshare_index_listing_data_source" xsi:type="string">MagentoHackathon\GridConfigShare\Model\ResourceModel\Bookmark\Grid\Collection</item>
             </argument>
         </arguments>
     </type>
