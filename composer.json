@@ -2,8 +2,8 @@
     "name": "magento-hackathon/magento2-gridconfigshare",
     "description": "TODO(benmarks) add description",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
-        "magento/framework": "1.0.0-beta"
+        "php": "~5.6.0|~7.0.0",
+        "magento/framework": "100.0.3"
     },
     "autoload": {
         "files": [
